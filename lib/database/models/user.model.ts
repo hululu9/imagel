@@ -22,10 +22,10 @@ const UserSchema = new Schema({
       required: true,
     },
     firstName: { 
-      type: String 
+      type: String, 
     },
     lastName: { 
-      type: String 
+      type: String, 
     },
     planId: { 
       type: Number,
